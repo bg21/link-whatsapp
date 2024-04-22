@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+
+}
+html, body{
+    background-color: #F8F8F8;
+}
+ol, ul{
+    padding-left: 0 !important;
+}
+
+nav{
+    padding-bottom: 60px;
+}
+a.nav{
+    color: #454545 !important;
+    text-decoration: none;
+    font-size: 26px;
+}
+a.mais{
+    background-color: #03CB4C;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #f1f1f1;
+    border-radius: 5px;
+}
+#msg{
+    padding: 40px 0;
+}
+#msg a{
+    margin: 20px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+error{
+    background-color: #F7DB34;
+    padding: 10px;
+    border: 5px;
+    font-weight: 300;
+    display: block;
+}
+success{
+    border: 1px solid #157347;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fa-whatsapp{
+    color: #03CB4C;
+}
+.fa-heart{
+    color: #03CA4C;
+}
+h1{
+    color: #454545;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h4{
+    font-weight: 300;
+    color: #454545;
+    padding-bottom: 20px;
+}
+h2{
+    color: #f1f1f1;
+    font-size: 30px;
+}
+div.flex{
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+}
+input{
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+#input, #textarea{
+    font-weight: 300;
+}
+textarea{
+    height: 100px;
+    resize: none;
+    margin-bottom: 20px;
+}
+form{
+    padding: 20px 0;
+}
+.afiliado{
+    padding: 40px;
+    text-align: center;
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../imgs/bg.png");
+}
+.afiliado h2{
+    margin: 50% 0 0 0;  
+}
+.afiliado p{
+    font-size: 16px;
+    color: #f1f1f1;
+    padding: 40px 20px 40px 20px;
+}
+.w50{
+    width: 60%;
+    padding: 40px 40px 0 40px;
+}
+
+
+a.plano{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f1f1f1;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #4EA135;
+}
+
+a.plano:hover{
+    background-color: #387526;
+}
+
+@media screen and (max-width: 768px){
+    .afiliado, .w50{
+        width: 100%;
+    }
+}
